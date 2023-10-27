@@ -41,11 +41,11 @@
     
             <h3>Leave a comment</h3>
     
-           <form action="">
-                <input type="text" placeholder="Enter your name" reqquired>
-                <input type="email" placeholder="Enter email address" reqquired>
-                <input type="text" placeholder="Enter your subject" reqquired>
-                <textarea rows="8" placeholder="Message" required></textarea>
+           <form action="form-handler.php" method="post">
+                <input type="text" name="name" placeholder="Enter your name" reqquired>
+                <input type="email" name="email" placeholder="Enter email address" reqquired>
+                <input type="text" name="subject" placeholder="Enter your subject" reqquired>
+                <textarea rows="8" name="message" placeholder="Message" required></textarea>
                 <button type="submit" class="hero-btn red-btn">Send Message</button>
             </form>
     
