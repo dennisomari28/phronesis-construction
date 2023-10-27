@@ -4,7 +4,7 @@ $visitor_email = $_POST['email'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 
-$email_from = 'Phronesis Construction Company Ltd.';
+$email_from = 'info@phronesis-construction.github.io/homes/';
 
 $email_subject = 'New Comment Submission'
 
